@@ -1,0 +1,11 @@
+To compile the program using GCC:
+gcc main.c preprocess.c
+
+To execute:
+./a.out <input file>
+
+This version works by keeping track of macros and by parsing #ifndef
+to avoid multiple inclusion of same files.
+
+Output:
+File Generated as target.i in the same dir
